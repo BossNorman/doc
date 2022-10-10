@@ -37,7 +37,7 @@ Before running the code, signup [apimedic](https://apimedic.com) to get Sandbox 
 
 Go to "doc/SampleAvatar/index.php" and change the following:
 
-```php
+```
 //change "YOUR_EMAIL" and "YOUR_PASSWORD" from apimedic.com
 $tokenGenerator = new TokenGenerator (("YOUR_EMAIL","YOUR_PASSWORD","https://sandbox-authservice.priaid.ch/login");
 ```
